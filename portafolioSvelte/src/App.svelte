@@ -27,11 +27,39 @@
 	</nav>
 	<br>
 	<br>
-	<h1 class="display-5 text-center p-5">Front-end Developer and Back-end Developer</h1>
+	<h1 class="display-5 text-center p-5">Desarrollador Front-end y Desarrollador Brack-end.</h1>
 	
 	<h4 class="text-center lead">I design and code beautifully simple things, and I love what I do.</h4>
-
+	<img src="images/avtarMacario.png" alt="Dia a Dia" class="rounded mx-auto d-block" width="250px"height= "210px">
+	<br>
+	<br>
 	<img src="images/imageAbstract.png" alt="Dia a Dia" class="rounded mx-auto d-block">
+	<div style="position: relative;">
+		<div class="p-3 mb-2 bg-warning" >
+			<br>
+			<br>
+			<h1 class="display-4 text-center p-5 text-white">Hola, Soy Ariel, Un gusto.</h1>
+			<div class="text-wrap mx-auto" >
+				<p class="lead text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatibus voluptates voluptate quos corporis odit temporibus sapiente fugiat cum ut. Laudantium cupiditate dignissimos optio esse animi incidunt corporis tenetur ullam.</p>
+			</div>
+			<br>
+			<br>
+			<br>
+		</div>
+		<!-- <div class="container bg-white mx-auto sm" >
+			<div class="row">
+			  <div class="col-sm">
+				One of three columns
+			  </div>
+			  <div class="col-sm">
+				One of three columns
+			  </div>
+			  <div class="col-sm">
+				One of three columns
+			  </div>
+			</div>
+		  </div> -->
+	</div>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
