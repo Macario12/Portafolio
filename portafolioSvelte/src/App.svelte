@@ -6,7 +6,7 @@
 	<br>
 	<nav class="navbar navbar-expand-lg navbar-light">
 		<a class="navbar-brand" href="#">
-			<img src="./images/LogoMacario.png" alt="" height="40">
+			<img src="./images/logoMacario.png" alt="" height="40">
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -30,7 +30,7 @@
 	<h1 class="display-5 text-center p-5">Desarrollador Front-end y Desarrollador Brack-end.</h1>
 	
 	<h4 class="text-center lead">Desarrollo aplicaciones, amo lo que hago, me encantan los animales.</h4>
-	<img src="./images/AvtarMacario.png" alt="AvatarMac" class="rounded mx-auto d-block" width="250px"height= "210px">
+	<img src="./images/avtarMacario.png" alt="AvatarMac" class="rounded mx-auto d-block" width="250px"height= "210px">
 	<br>
 	<br>
 	<img src="./images/imageAbstract.png" alt="Dia a Dia" class="rounded mx-auto d-block">
