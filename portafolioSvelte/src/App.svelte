@@ -29,7 +29,7 @@
 	<br>
 	<h1 class="display-5 text-center p-5">Desarrollador Front-end y Desarrollador Brack-end.</h1>
 	
-	<h4 class="text-center lead">I design and code beautifully simple things, and I love what I do.</h4>
+	<h4 class="text-center lead">Desarrollo aplicaciones, amo lo que hago, me encantan los animales.</h4>
 	<img src="./images/avtarMacario.png" alt="AvatarMac" class="rounded mx-auto d-block" width="250px"height= "210px">
 	<br>
 	<br>
