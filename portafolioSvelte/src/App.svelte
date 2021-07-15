@@ -1,44 +1,28 @@
 <script>
-	
+	import Contact from './components/Contact.svelte';
+
+	import Footer from './components/Footer.svelte'
+	import Navbar from './components/Navbar.svelte'
+	import Projects from './components/Projects.svelte'
 </script>
 
 <main>
 	<br>
-	<nav class="navbar navbar-expand-lg navbar-light">
-		<a class="navbar-brand" href="#">
-			<img src="./images/logoMacario.png" alt="" height="40">
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
-						<a class="nav-link text-warning lead mr-auto" href="#">Tutoria</a>
-					</li>
-				</ul>
-
-			<form class="form-inline my-2 my-lg-0">
-				<button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Contactame</button>
-			  </form>
-			  
-		</div>
-	</nav>
+	<Navbar/>
 	<br>
 	<br>
 	<h1 class="display-5 text-center p-5">Desarrollador Front-end y Desarrollador Brack-end.</h1>
 	
 	<h4 class="text-center lead">Desarrollo aplicaciones, amo lo que hago, me encantan los animales.</h4>
-	<img src="./images/avtarMacario.png" alt="AvatarMac" class="rounded mx-auto d-block" width="250px"height= "210px">
+	<img src="./images/avtarMacario.png" alt="AvatarMac" class="rounded mx-auto d-block img-fluid" width="250px"height= "210px">
 	<br>
 	<br>
-	<img src="./images/imageAbstract.png" alt="Dia a Dia" class="rounded mx-auto d-block">
+	<img src="./images/imageAbstract.png" alt="Dia a Dia" class="rounded mx-auto d-block img-fluid">
 	<div style="position: relative;">
 		<div class="p-3 mb-2 bg-warning" >
 			<br>
 			<br>
-			<h1 class="display-4 text-center p-5 text-white">Hola, Soy Ariel, Un gusto.</h1>
+			<h3 class="display-5 text-center p-5 text-white font-weight-bold">Hola, Soy Ariel, Un gusto.</h3>
 			<div class="text-wrap mx-auto" >
 				<p class="lead text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatibus voluptates voluptate quos corporis odit temporibus sapiente fugiat cum ut. Laudantium cupiditate dignissimos optio esse animi incidunt corporis tenetur ullam.</p>
 			</div>
@@ -46,23 +30,40 @@
 			<br>
 			<br>
 		</div>
-		<!-- <div class="container bg-white mx-auto sm" >
+		<div class="container bg-white mx-auto">
 			<div class="row">
 			  <div class="col-sm">
-				One of three columns
+				  <br>
+				<img src="./images/frontend.png" alt="front-end" class="rounded mx-auto d-block img-fluid">
+				<h3 class="display-5 text-center p-5 font-weight-bold">Front-end.</h3>
+				<p class="text-center lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, facilis dignissimos natus recusandae amet enim delectus sequi assumenda, libero nihil molestiae magnam! Obcaecati sed necessitatibus cum eum consequuntur tempore blanditiis.</p>
+				<h6 class="text-center text-warning">Things I enjoy designing:</h6>
+				<p class="text-center lead">Html, CSS</p>
+				<h6 class="text-center text-warning">Dev Tools:</h6>
+				<p class="text-center lead">Angular</p>
+				<p class="text-center lead">React Js</p>
+				<p class="text-center lead">Svelte Js</p>
 			  </div>
 			  <div class="col-sm">
-				One of three columns
-			  </div>
-			  <div class="col-sm">
-				One of three columns
+				<br>
+				<img src="./images/backend.png" alt="back-end" class="rounded mx-auto d-block img-fluid">
+				<h3 class="display-5 text-center p-5 font-weight-bold">Back-end.</h3>
+				<p class="text-center lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus laudantium possimus quaerat! Laborum impedit dignissimos quod quaerat corrupti quia autem provident, quos assumenda harum possimus animi ratione beatae fugiat unde?</p>
+				<h6 class="text-center text-warning">Languages I speak:</h6>
+				<p class="text-center lead">Html, CSS</p>
+				<h6 class="text-center text-warning">Dev Tools:</h6>
+				<p class="text-center lead">Angular</p>
+				<p class="text-center lead">React Js</p>
+				<p class="text-center lead">Svelte Js</p>
 			  </div>
 			</div>
-		  </div> -->
+		  </div>
 	</div>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+	<Projects/>
+
+	<Footer/>
+	
 </main>
 
 <style>
@@ -72,5 +73,7 @@
     padding-right: 10rem;
     padding-left: 10rem;
   }
+
 }
+
 </style>
