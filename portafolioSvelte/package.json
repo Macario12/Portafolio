@@ -20,6 +20,8 @@
   "dependencies": {
     "bootstrap": "^5.0.0-beta3",
     "gh-pages": "^3.2.3",
-    "sirv-cli": "^1.0.0"
+    "sendmail": "^1.6.1",
+    "sirv-cli": "^1.0.0",
+    "svelte-navigator": "^3.1.5"
   }
 }
