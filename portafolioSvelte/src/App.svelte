@@ -15,7 +15,7 @@
       <Contact />
     </Route>
 	
-	<Route path="/">
+	<Route path="">
 		<Home/>
 	</Route>
 	
