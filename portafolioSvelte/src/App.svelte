@@ -11,11 +11,11 @@
 	<Navbar/>
 </header>
 <main>
-	<Route path="contact">
+	<Route path="/Portafolio/portafolioSvelte/public/contact">
       <Contact />
     </Route>
 	
-	<Route path="">
+	<Route path="/Portafolio/portafolioSvelte/public/">
 		<Home/>
 	</Route>
 	
