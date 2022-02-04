@@ -4,7 +4,7 @@
     import { Router, Route, Link } from 'svelte-navigator';
 </script>
 <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="./">
+    <a class="navbar-brand" href="/Portafolio/portafolioSvelte/public/">
         <img src="./images/logoMacario.png" alt="" height="40">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@
             </ul>
 
         <form class="form-inline my-2 my-lg-0">
-            <Link class="btn btn-outline-warning my-2 my-sm-0 mx-auto" to="contact">Contactame</Link>
+            <Link class="btn btn-outline-warning my-2 my-sm-0 mx-auto" to="/Portafolio/portafolioSvelte/public/contact">Contactame</Link>
           </form>
           
     </div>
